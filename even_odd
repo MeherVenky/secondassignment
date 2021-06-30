@@ -9,7 +9,7 @@ System.out.println("Enter number");
 n=sc.nextInt();
 int r;
 int m=n;
-
+System.out.print("even numbers-:");
 while(n!=0)
 {
 r = n%10;
@@ -22,7 +22,8 @@ n=n/10;
 
 }
 n=m;
-System.out.print(" ");
+System.out.print();
+System.out.print("odd numbers-:");
 while(n!=0)
 {
 r = n%10;
